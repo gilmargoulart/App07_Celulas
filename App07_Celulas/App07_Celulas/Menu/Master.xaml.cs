@@ -17,9 +17,41 @@ namespace App07_Celulas.Menu
 			InitializeComponent ();
 		}
 
-        private void Button_GoPagina1(object sender, EventArgs e)
+        private void Button_GoTextCellPage(object sender, EventArgs e)
         {
-            //Detail = new 
+            Detail = new NavigationPage(new Pagina.TextCellPage());
+            IsPresented = false;
+        }
+
+        private void Button_GoImageCellPage(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.ImageCellPage());
+            IsPresented = false;
+        }
+        private void Button_GoEntryCellPage(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.EntryCellPage());
+            IsPresented = false;
+        }
+        private void Button_GoSwitchCellPage(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.SwitchCellPage());
+            IsPresented = false;
+        }
+        private void Button_GoViewCellPage(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.ViewCellPage());
+            IsPresented = false;
+        }
+        private void Button_GoListViewPage(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.ListViewPage());
+            IsPresented = false;
+        }
+        private void Button_GoListViewButtonPage(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Pagina.ListViewButtonPage());
+            IsPresented = false;
         }
     }
 }

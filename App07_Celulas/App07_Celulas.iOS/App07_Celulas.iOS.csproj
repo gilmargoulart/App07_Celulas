@@ -157,4 +157,10 @@
       <Name>App07_Celulas</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perfil.png" />
+  </ItemGroup>
 </Project>
