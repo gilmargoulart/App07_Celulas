@@ -11,7 +11,7 @@ namespace App07_Celulas
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Menu.Master();
         }
 
         protected override void OnStart()
